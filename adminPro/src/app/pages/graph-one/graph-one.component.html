@@ -1,1 +1,23 @@
-<p>graph-one works!</p>
+<div class="row">
+
+    <div class="col-6">
+        <app-doughnut [title]="chartTitleSales" [chartData]="chartDataSales" [chartType]="chartType"></app-doughnut>
+    </div>
+
+    <div class="col-6">
+      <app-doughnut [title]="chartTitleFood" [chartData]="chartDataFood" [chartType]="chartType"></app-doughnut>
+    </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-6">
+    <app-doughnut [title]="chartTitleDrinks" [chartData]="chartDataDrinks" [chartType]="chartType"></app-doughnut>
+  </div>
+
+  <div class="col-6">
+    <app-doughnut [title]="chartTitleDessert" [chartData]="chartDataDessert" [chartType]="chartType"></app-doughnut>
+  </div>
+
+</div>
