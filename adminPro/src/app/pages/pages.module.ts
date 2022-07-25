@@ -11,6 +11,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { GraphOneComponent } from './graph-one/graph-one.component';
 import { PagesComponent } from './pages.component';
 import { NgChartsModule } from 'ng2-charts';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { NgChartsModule } from 'ng2-charts';
     DashboardComponent,
     ProgressComponent,
     GraphOneComponent, 
-    PagesComponent
+    PagesComponent, 
+    AccountSettingsComponent
   ],
   imports: [ 
     CommonModule,
@@ -33,6 +35,7 @@ import { NgChartsModule } from 'ng2-charts';
     ProgressComponent,
     GraphOneComponent, 
     PagesComponent,
+    AccountSettingsComponent
   ]
 })
 export class PagesModule { }
