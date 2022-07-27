@@ -12,6 +12,7 @@ import { GraphOneComponent } from './graph-one/graph-one.component';
 import { PagesComponent } from './pages.component';
 import { NgChartsModule } from 'ng2-charts';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromisesComponent } from './promises/promises.component';
 
 
 @NgModule({
@@ -20,7 +21,7 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
     ProgressComponent,
     GraphOneComponent, 
     PagesComponent, 
-    AccountSettingsComponent
+    AccountSettingsComponent, PromisesComponent
   ],
   imports: [ 
     CommonModule,

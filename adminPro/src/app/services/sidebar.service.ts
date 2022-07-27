@@ -21,6 +21,10 @@ export class SidebarService {
         {
           title: 'Charts',
           path: 'graph-one'
+        },
+        {
+          title: 'Promises',
+          path: 'promises'
         }
       ]
     }
